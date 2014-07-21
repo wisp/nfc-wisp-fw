@@ -1,0 +1,74 @@
+MSP430F5310 Hardware Utilization:
+
+Available Pins:
+Chip 	Primary_Function	Connector Access				Name of connection
+(1) 	P6.0				P33-7
+(2) 	P6.1				P33-6	
+(5) 	P5.0				P33-2
+(6) 	P5.1				P33-1
+(18)	P1.4				P35-5
+(20)	P1.6				P35-3
+(21)	P1.7				P35-2				
+(35)	P4.6				P34-2				
+
+
+Used Pins:
+(3) 	P6.2				P33-5							EPAPER_GPIO/AIN0
+(4)		P6.3				P33-4							EPAPER_GPIO
+(7) 	AVCC1				P33-1, P35-1, P36-1, SBW-4		Vreg
+(8) 	P5.4				--								X1
+(9)		P5.5				--								X1
+(10)	AVSS1				P33-8, P35-10, P36-7, SBW-1		GND
+(11)	DVCC1				P33-1, P35-1, P36-1, SBW-4		Vreg
+(12)	DVSS1				P33-8, P35-10, P36-7, SBW-1		GND
+(13)	VCORE				P33-8, P35-10, P36-7, SBW-1		GND
+(14)	P1.0				P35-9							RX
+(15)	P1.1				P35-8							ACCEL_INT1
+(16)	P1.2				P35-7							ACCEL_INT2, EPAPER_GPIO (*)
+(17)	P1.3				P35-6							EPAPER_AIN3/AOUT/GPIO
+(19)	P1.5				P35-4							EPAPER_SPI_SSEL
+(22)	P2.0				P36-6							LCE_BIT
+(23)	PJ.0				P36-5							RX_WU_Enable
+(24)	PJ.1				P36-4							RX_ENABLE_BIT	
+(25)	PJ.2				P36-3							ACCEL_Enable
+(26)	PJ.3				P36-2							EEPROM_Enable
+(27)	DVSS2				P33-8, P35-10, P36-7, SBW-1		GND
+(28)	DVCC2				P33-1, P35-1, P36-1, SBW-4		Vreg
+(29)	P4.0				P34-8							SPI_CLK_BIT (Accelerometer)
+(30)	P4.1				P34-7							I2C_SDA (EEPROM), EPAPER_SPI_MOSI_BIT (*)
+(31)	P4.2				P34-6							I2C_SCL (EEPROM), EPAPER_SPI_MISO_BIT (*)
+(32)	P4.3				P34-5							ACCEL_CS, EPAPER_SPI_SCK
+(33)	P4.4				P34-4							SPI_MOSI_BIT (Accelerometer)
+(34)	P4.5				P34-3							SPI_MISO_BIT (Accelerometer)
+(36)	P4.7				P34-1							TX
+(37)	VSSU				P33-8, P35-10, P36-7, SBW-1		GND
+(38)	PU.0				--								D32
+(39)	NC					--								--
+(40)	PU.1				--								D31
+(41)	LDIO				--								--
+(42)	LDOO				--								--
+(43)	NC					--								--
+(44)	AVSS2				P33-8, P35-10, P36-7, SBW-1		GND
+(45)	P5.2				--								BATT_ENABLE
+(46)	P5.3				--								PHOTO_ENABLE
+(47)	TEST				SBW3							TEST
+(48)	RESET				SBW2							RESET
+
+(*) Pin conflict managed through proper SPI bus arbitration
+
+Used Hardware Resources:				Purpose:
+Timer A0: 								1-of-256 processing *
+Timer A0 Capture/Compare Registor 2:	1-of-256 processing
+
+Timer B0:								424 KHz subcarrier generation (PWM)
+Timer B0 Capture/Compare Register 0:	424 KHz subcarrier generation (PWM)
+Timer B0 Capture/Compare Register 1:	424 KHz subcarrier generation (PWM)
+
+USCI_B1:								E-Paper display SPI interface
+Timer A0:								2 KHz PWM for E-Paper display *
+
+* Conflicting timers must be used in isolation
+
+Available Hardware Resources:
+Timer A1
+Timer A2
