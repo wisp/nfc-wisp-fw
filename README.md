@@ -30,7 +30,7 @@ The older pre-release firmware code is taged as **"pre-release"**.
 1. Set your Code Composer Studio v6x workspace to nfc-wisp-fw/ccs and import the following projects:
 
     * **nfc-eink-img-update-demo**      
- An application which updates E-ink paper using [andriod phone app](	https://github.com/wisp/nfc-reader-app.git):
+ An application which updates E-ink paper using our andriod app [**Display Tag Updater**](	https://github.com/wisp/nfc-reader-app.git):
  * **nfc-eink-temp-accel-data-logger-demo**      
  An application which sample temerature and accelerometer motion state(in static or in motion)every 3s, and plots the result on the 2.7 inch E-ink in real time (motion state is indicated by a black bar on the right up corner).
 
