@@ -19,6 +19,12 @@ Use cell-phone to updates E-ink display when loading “nfc-eink-img-update-demo
 
 https://github.com/wisp/nfc-reader-app.git		
 
+#Features
+---
+1. Software defended NFC protocol
+2. Optimized for low power consumption and low duty-cycle
+3. Easy integration with user application
+4. Includes accelerometer, FRAM, E-ink drivers  
 #Introduction
 ---
 1. The tagged version **"v1.0"** is the released stable version for **NFC-WISP 1.0** hardware and implement ISO 14443-Type B protocol, we put partially implemented ISO 15693 in the source code, but haven't fully tested it yet.
