@@ -9,7 +9,7 @@
 ###Tutorial & Discussion: 
 See NFC-WISP wiki: http://nfc-wisp.wikispaces.com/
 
-Please send your questions and suggestions to the **discussion board** in wiki!!!	    
+Please send your questions and suggestions to the [**discussion board**](http://nfc-wisp.wikispaces.com/wiki/messages) in wiki!!!	    
 
 ###Hardware Design repository:
 https://github.com/wisp/nfc-wisp-hw
@@ -21,7 +21,7 @@ https://github.com/wisp/nfc-reader-app.git
 
 #Introduction
 ---
-1. The tagged version **"V1.0"** is the released stable version for **NFC-WISP 1.0** hardware and implement ISO 14443-Type B protocol, we put partially implemented ISO 15693 in the source code, but haven't fully tested it yet.
+1. The tagged version **"v1.0"** is the released stable version for **NFC-WISP 1.0** hardware and implement ISO 14443-Type B protocol, we put partially implemented ISO 15693 in the source code, but haven't fully tested it yet.
 The older pre-release firmware code is taged as **"pre-release"**.
 2. A programed **NFC-WISP 1.0** tag using this firmware can be read as normal NFC tag using some NFC reading app (such as NFC Research Lab) on NFC-enabled andriod smartphone. We test it on Nexus S, Galaxy S4 and Nexus S. But the nfc-eink-img-update-demo (see below) is only tested with Nexus S with our [andriod phone app]( https://github.com/wisp/nfc-reader-app.git).
 
