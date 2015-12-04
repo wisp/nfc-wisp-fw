@@ -5,7 +5,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.TI MSP430 USB1_0/MSP430" value="${build_artifact:nfc-eink-img-update-demo}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.TI MSP430 USB1_0/MSP430" value="nfc-eink-img-update-demo"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:nfc-eink-img-update-demo}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.TI MSP430 USB1_0/MSP430" value="C:/Users\yizhao\Dropbox\Disney Research\NFC_WISP_DRP\OpenSourceDoc\Firmware\ccs\nfc-eink-img-update-demo\BUILD_E_INK_2.7_BATT\nfc-eink-img-update-demo.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.TI MSP430 USB1_0/MSP430" value="C:/Users\yizhao\Dropbox\Disney Research\Github NFC-WISP\nfc-wisp-fw\ccs\nfc-eink-img-update-demo\BUILD_E_INK_2.0_BATT_FREE\nfc-eink-img-update-demo.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/nfc-eink-img-update-demo"/>
 </listAttribute>
